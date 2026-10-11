@@ -1,22 +1,35 @@
 ---
 
+### `README.md`
+
 ```markdown
-<!-- File: README.md -->
-# Surreal Fashion Photography Skill (先锋时尚创意摄影 Skill)
+# 📸 Surreal Fashion Photography Prompt Generator
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Type](https://img.shields.io/badge/Agent-Skill-black.svg)
-![Target](https://img.shields.io/badge/Model-Midjourney%20%7C%20Flux%20%7C%20SD-orange.svg)
-
-一个专为解决 AI 生图中“平庸影楼人像”、“千篇一律磨皮美颜”、“无趣大头照”而设计的 Agent Skill 规范。
-
-该 Skill 结合了青年亚文化、波普超现实主义（Pop Surrealism）以及电影级画报摄影的视觉基因，仅需提供基础的**人物**与**场景**输入，即可全自动编排微型故事情节，并输出具备极端光学参数、硬质光影与超现实张力的高级中文提示词（单条不低于 200 字）。
+> 基于视觉基因解构、超现实叙事编排与先锋时尚光学语言的 AI 摄影提示词生成 Skill。适用于 Midjourney v6、Stable Diffusion XL、FLUX.1 等主流文生图大模型。
 
 ---
 
-## 目录结构
+## 📖 简介
 
-```bash
+本 Skill 旨在解决 AI 时尚人像生成中普遍存在的**“千篇一律影楼风”**、**“过度磨皮塑料脸”**与**“毫无灵魂的呆板摆拍”**。
+
+通过解构亚文化街头摄影（Subcultural Rawness）、波普超现实主义（Pop Surrealism）及电影窥视视角（Cinematic Voyeurism），该系统能够将用户提供的任意**「人物」**与**「场景」**转化为具备强烈对抗张力、微型叙事故事感与硬核光学物理参数的高质量中文提示词。
+
+---
+
+## ⚡ 核心特性
+
+- **反平庸肖像法则**：强制引入 16–24mm 超广角透视畸变、物体遮挡框架或重力破缺姿势。
+- **自动叙事引擎**：拒绝空洞站姿，自动编排「荒诞日常」、「重力失效」或「尺度戏谑」等故事剧本。
+- **材质冲突对抗**：强制将高定面料（真丝、粗纺毛呢、解构西装）与功能粗粝场景（红砖、金属逃生梯、废弃泳池）对立碰撞。
+- **写实质感还原**：默认搭载机顶直闪（On-camera flash）与硬日光布光参数，保留真实毛孔、发丝与纤维细节，杜绝柔光滤镜与塑料磨皮。
+- **不少于 200 字深度描述**：确保 prompt 具备足够的细节密度与空间纵深信息。
+
+---
+
+## 🗂 仓库目录
+
+```text
 .
-├── SKILL.md       # 核心 Skill 定义文件（Agent 角色注入、执行逻辑与输出模板）
-└── README.md      # 项目主页与使用指引说明
+├── SKILL.md       # 核心 Skill 定义文件（Agent 规则、输入输出协议、生成模板）
+└── README.md      # 项目说明文档与使用指引
