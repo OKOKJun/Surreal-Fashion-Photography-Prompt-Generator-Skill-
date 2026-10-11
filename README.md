@@ -1,8 +1,3 @@
----
-
-### 2. `README.md`（项目文档）
-
-```markdown
 # 📸 Surreal Fashion Narrative Photography Skill
 
 > 一键将「人物」与「场景」转化为兼具**超现实故事张力**与**硬核光学质感**的时尚摄影 Prompt 生成器。
