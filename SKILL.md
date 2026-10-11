@@ -1,79 +1,55 @@
 ---
 name: creative-fashion-photography
-description: Generates avant-garde creative fashion photography editorial narrative concepts, optical camera/lighting parameters, and a cohesive 9-shot narrative storyboard with prompts (optimized for nano bananan pro and nano bananan 2.1) based on user-provided model and scene.
+description: 基于用户提供的模特与场景资产，定制完整9镜头先锋时尚叙事大片方案，并生成针对 Nano Bananan Pro 与 Nano Bananan 2.1 的高质量中文长提示词（每段不低于200字）。适用于先锋时尚大片企划、反平庸人像、商业创意摄影通告单生成及连续性分镜 Prompt 设计。
 ---
 
 # Creative Fashion Photography
 
 ## Summary
 
-Translates model, styling, and scene inputs into high-fashion editorial concepts, optical camera/lighting technical sheets, and a complete 9-shot narrative storyboard. Enforces deep depth of field, harsh direct flash, contextual conflict, and authentic micro-textures, while outputting model-specific prompts tailored for Nano Bananan Pro and Nano Bananan 2.1.
+将常规模特、服饰与场景输入，重构为具备先锋美学冲突、深景深硬光质感与严谨光学参数的时尚摄影全流程方案。输出标准包含 9 镜头叙事分镜脚本，以及专为 Nano Bananan Pro 和 Nano Bananan 2.1 调优的高保真中文生图提示词（单段长度 $\ge$ 200 汉字）。
 
 ## When to Use
 
-* When the user provides a model and scene and requests an editorial fashion concept, full photoshoot narrative, or multi-shot sequence.
-* When the user requests a cohesive 9-shot fashion editorial storyboard (九宫格时尚叙事组图) with corresponding generation prompts.
-* When generating AI prompts specifically optimized for Nano Bananan Pro or Nano Bananan 2.1.
-* When the user wants anti-boring fashion portrait rules, suppressing flat studio posing, shallow bokeh, and airbrushed skin.
+* 用户提供模特图/场景图，要求生成完整故事线或系列化时装大片方案。
+* 需要打破传统影楼大光圈虚化、磨皮糖水片，追求硬直闪光、亚文化解构、尺度错位或画中画构图。
+* 生成适配 Nano Bananan Pro / Nano Bananan 2.1 的高密度中文连续性提示词。
 
-## Visual DNA & Aesthetic Genres
+## Steps
 
-1. **Subcultural Sportswear Deconstruction (青年街头与暴力运动解构)**
-   * Mismatch: Formal deconstructed couture mixed with active functional spaces and utilitarian gear.
-   * Optics: 16–24mm ultra-wide lens, shooting distance 0.3–0.8m, dynamic perspective stretch.
-   * Lighting: On-camera direct flash under harsh daylight; razor-sharp solid black shadows.
+### 1. 资产解构与流派匹配
+* **模特基因**：面部骨骼感、发型质感、服装轮廓结构、色彩饱和度及配饰细节。
+* **场景基因**：建筑纵深、工业/日常功能属性、环境固有色温及环境光质。
+* **美学流派分流（提供选择或智能推荐）**：
+  * **流派 A（青年街头与运动解构）**：16–24mm 超广角贴身仰拍、机顶直闪硬阴影、功能性护具与高定时装的冲突混搭。
+  * **流派 B（尺度错位与流行超现实）**：微缩景观/巨物元素置换、高调纯净商业切光、荒诞冷淡的权力倒置。
+  * **流派 C（电影感窥视现实）**：50–85mm 空间压缩、几何硬画框（后视镜/球拍网格/铁丝网）、自然暖日光漫射。
 
-2. **Pop Surrealism and Scale Inversion (尺度错位与流行超现实)**
-   * Mismatch: Deliberate giant/miniature scale inversion (micro-people with giant objects, or colossal figures towering over cities).
-   * Optics: 35–85mm standard/medium telephoto; 90–105mm macro for miniature sets.
-   * Lighting: Clean commercial studio lighting with sharp shadow cutoffs; hard-edge compositing.
+### 2. 9 镜头叙事节奏规划（9-Shot Rhythm）
+统一规划具有起承转合的完整连续性分镜：
+* **Shot 1（侵入）**：环境大全景，人物作为异质视觉锚点介入庞大空间。
+* **Shot 2（对峙）**：全身立姿景，服装廓形与场景几何结构形成体量抗衡。
+* **Shot 3（窥视）**：中景几何画中画，通过前景硬质道具阻隔产生窥探感。
+* **Shot 4（微观）**：近距材质特写，聚焦面料纤维、配饰细节与原生毛孔汗光。
+* **Shot 5（拉伸）**：贴地超广角动态特写，极致拉伸前景四肢与鞋底透视。
+* **Shot 6（沉浸）**：半身环境互动，主体与场景特征结构（立柱、墙体、道具）的情绪咬合。
+* **Shot 7（交锋）**：正面行进抓拍中景，动态步伐、飞扬衣摆与直视镜头的冷峻神态。
+* **Shot 8（抽离）**：纵深远景背影，主体抽离喧嚣，与冷酷空间形成孤独和解。
+* **Shot 9（定格）**：中心对称仰角平视，极具秩序感与视觉冲击的画报封面终章。
 
-3. **Cinematic Voyeurism (电影感窥视与几何框取)**
-   * Mismatch: Intimate, candid moments captured through cold geometric frame obstructions.
-   * Optics: 50–85mm compressed perspective framed through rearview mirrors, wire fences, or windows.
-   * Lighting: Natural warm daylight with bounce fills, maintaining open shadows and rich filmic grain.
+### 3. 光学与质感约束
+* **镜头与景深**：严禁无目的背景虚化，强制使用小光圈（f/5.6–f/11）实现全域深景深清晰度。
+* **布光机制**：以机顶直闪（On-Camera Direct Flash）或硬日光为主，形成刀刻般深黑实体阴影，锁死服装高饱和色彩。
+* **材质控制**：保留皮肤微小毛孔、真实汗水高光、织物经纬粗糙感及环境金属锈蚀细节，严格抑制平滑磨皮。
 
-## Workflow & Steps
-
-### Step 1: Input Analysis & Genre Selection
-* Analyze model features (silhouette, tailoring, palette, styling) and scene geometry (lines, materials, scale).
-* Offer interactive genre routing:
-  * `Option A`: Subcultural Sportswear Deconstruction
-  * `Option B`: Pop Surrealism & Scale Inversion
-  * `Option C`: Cinematic Voyeurism
-  * `Option D`: Auto-Adapt (automatically routes to the highest-contrast genre)
-
-### Step 2: Editorial Narrative Concept & Tension
-* Define editorial title and narrative logline.
-* Lock the visual conflict between garment functionality and location environment.
-
-### Step 3: 9-Beat Editorial Narrative Architecture
-Structure the photoshoot into a 9-shot sequential storyboard:
-* **Shot 1: Spatial Alienation (环境远景·空间异化)** - Wide establishing frame showing scale contrast between subject and environment.
-* **Shot 2: Dynamic Invasion (超广贴近·肢体侵入)** - 16–24mm low-angle perspective stretch with footwear/garment dominating the foreground.
-* **Shot 3: Material & Texture (微观触感·特写刻画)** - Macro shot highlighting fabric weave, jewelry, hardware, or cosmetic texture under flash.
-* **Shot 4: Geometric Voyeurism (画中画·几何框取)** - Obstructed framing through mirrors, windows, meshes, or structural beams.
-* **Shot 5: Mid-Stride Action (中景张力·动态捕捉)** - Motion-rich capture (striding, leaning, pivoting) under sharp lighting.
-* **Shot 6: Surreal Climax (叙事高潮·荒诞介入)** - Scale inversion, gravity breach, or absurd contextual action.
-* **Shot 7: Emotional Confrontation (半身对峙·眼神凝视)** - Medium close-up with deadpan expression, visible pores, and specular sweat highlights.
-* **Shot 8: Spatial Distortion (非常规折叠·俯仰畸变)** - Overhead angle, tilted horizon, or architectural silhouette distortion.
-* **Shot 9: Alienated Denouement (终章余韵·疏离抽离)** - Silhouette, receding back, or atmospheric exit shot.
-
-### Step 4: Optical & Material Standards
-* Aperture: Enforce f/5.6–f/11 deep depth of field across all planes (reject dreamy shallow bokeh).
-* Lighting: Direct on-camera hard flash combined with ambient light; sharp edge transitions.
-* Textures: Preserve authentic skin pores, sweat gloss, wool weave, metallic reflections, and peeling paint. Prohibit plastic airbrushing.
-
-### Step 5: Dual-Model Prompts Delivery
-For every single shot among the 9 frames, output:
-1. **Shot Metadata**: Shot number, title, and dramatic purpose.
-2. **Camera & Light Execution**: Lens focal length, camera height, aperture, and light placement.
-3. **Nano Bananan Pro Prompt**: Dense, structured narrative syntax balancing foreground, subject, backdrop, and optical data.
-4. **Nano Bananan 2.1 Prompt**: Streamlined, keyword-dense syntax with weighted spatial and material controls.
-5. **Negative Controls**: Global negative prompt filtering out smooth beauty filters and generic studio setups.
+### 4. 标准化交付结构
+1. **核心视觉概念与冲突叙事**：概念命题、视觉矛盾点与色彩对立阐述。
+2. **实拍光学与灯位执行单**：机位高度、焦段、光圈、主辅光比及材质控制要求。
+3. **9 镜头中文生图 Prompt（Nano Bananan 专属）**：每个镜头独立输出一段不少于 200 字的中文长 Prompt，涵盖主体形态、服装细节、机位畸变、打光效果与微观纹理。
+4. **全局负面控制词（Negative Controls）**：抑制平庸影楼感、大光圈虚化及磨皮滤镜。
 
 ## Gotchas
 
-* Maintain strict character, wardrobe, and scene consistency across all 9 narrative frames.
-* Vary focal lengths and camera distances across the sequence to maintain editorial pacing.
-* Never use generic adjectives like "cinematic" or "high-end" without specifying physical camera settings and lighting ratios.
+* 9 个分镜的中文生图提示词中，每一段字数必须达到 200 字以上。
+* 除非特定微距特写，否则一律禁止使用大光圈浅景深（f/1.4–f/2.8）及柔焦模糊。
+* 严禁空洞形容词堆砌，所有画面描述必须锚定在具体光学焦距、打光角度与物理材质上。
