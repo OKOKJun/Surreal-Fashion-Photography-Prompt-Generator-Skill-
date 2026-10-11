@@ -1,46 +1,71 @@
 ---
 name: creative-fashion-photography
-description: Generates avant-garde creative fashion photography concepts, optical camera/lighting parameters, and editorial AI prompts based on subcultural deconstruction, scale inversion, and framed voyeurism. Use when the user asks for creative fashion editorials, anti-boring portraits, surreal commercial fashion, or avant-garde photoshoot concepts.
+description: Generates avant-garde creative fashion photography editorial narrative concepts, optical camera/lighting parameters, and a cohesive 9-shot narrative storyboard with prompts (optimized for nano bananan pro and nano bananan 2.1) based on user-provided model and scene.
+version: 1.0.0
 ---
 
 # Creative Fashion Photography
 
 ## Summary
+Translates user-provided model, attire, and scene inputs into a complete high-fashion editorial narrative plan, technical optical/lighting guides, and a cohesive 9-shot narrative storyboard. Outputs production-ready, model-specific prompts tailored for **Nano Bananan Pro** and **Nano Bananan 2.1**, rejecting generic portrait cliches in favor of deep-focus optics, hard direct flash, and raw tangible materiality.
 
-This skill translates conventional portrait or product concepts into high-fashion avant-garde photography workflows, technical optical execution guides, and detailed AI prompts. It enforces strong contextual conflict, deep focus optics, harsh direct flash, and raw authentic textures while strictly suppressing over-smoothed, soft-glow, and generic studio portraits.
+---
 
 ## When to Use
+* When the user uploads or describes a model, styling, and scene and requests an editorial fashion photoshoot concept or narrative storyboard.
+* When generating a cohesive 9-shot fashion editorial sequence (九宫格连贯叙事组图) with prompts.
+* When generating image prompts specifically tailored for **Nano Bananan Pro** or **Nano Bananan 2.1**.
+* When the user demands anti-boring portraits, subcultural tension, scale inversion, or framed voyeurism while strictly suppressing airbrushed skin, beauty filters, and shallow bokeh.
 
-* When the user requests avant-garde, high-fashion, or conceptual photography ideas.
-* When the user wants fashion editorial prompts (Midjourney, Stable Diffusion) that avoid cliché portrait tropes.
-* When the user needs a production guide specifying focal length, lighting, and composition for creative fashion shoots.
+---
 
-## Steps
+## Visual DNA & Aesthetic Framework
 
-1. Classify Aesthetic Sub-genre
-   * Subcultural Sportswear Deconstruction: raw energy, aggressive movement, functional gear paired with high-fashion tailoring.
-   * Pop Surrealism and Scale Inversion: deliberate scale mismatch (giant consumer items, miniature landscapes, airborne figures).
-   * Cinematic Voyeurism: framing through geometric cutouts, rearview mirrors, car windows, and natural environmental frames.
+### Genre 1: Subcultural Sportswear Deconstruction (青年街头与暴力运动解构)
+* **Aesthetic**: Raw subcultural grit, dynamic physical invasion, aggressive movement.
+* **Core Conflict**: Functional athletic/industrial spaces vs. deconstructed tailoring or formalwear.
+* **Optics**: 16–24mm ultra-wide lens, low-angle ground level (0.2–0.5m), close-up subject distance (0.3–0.8m) for intentional perspective distortion.
+* **Lighting**: On-camera direct hard flash overpowering ambient daytime light; cast razor-sharp, pitch-black shadows.
+* **Key Materials**: Coarse knit, heavy wool, asphalt grit, distressed leather, metallic mesh, sports gear plastics.
 
-2. Enforce Aesthetic Mismatch
-   * Pair utilitarian settings (sports courts, ladders, cars, rooftops) with sculptural or formal attire.
-   * Never allow generic studio backdrops or standard commercial posing.
+### Genre 2: Pop Surrealism & Scale Inversion (尺度错位与流行超现实)
+* **Aesthetic**: Conceptual high fashion, absurd daily routines, spatial scale breaches.
+* **Core Conflict**: Extreme scale mismatch between human bodies and everyday objects/architecture (giant consumer items, miniature cityscapes, airborne figures).
+* **Optics**: 35–85mm standard to medium-telephoto for flat geometry, or 90–105mm macro for miniature set framing.
+* **Lighting**: Controlled high-key commercial studio light with razor-sharp shadow cutoffs; seamless hard-edge lighting integration.
+* **Key Materials**: Glossy plastics, semi-melted food textures, synthetic polymers, polished chrome, dollhouse props.
 
-3. Lock Optical and Lighting Specifications
-   * Focal Length: 16-24mm ultra-wide with close subject proximity (0.3-0.8m) for dynamic distortion, or 50-85mm for compressed frames.
-   * Depth of Field: deep focus across all planes (f/5.6-f/11). Avoid shallow dreamy bokeh.
-   * Lighting: harsh on-camera direct flash combined with bright daylight, or crisp commercial studio light with razor-sharp shadow edges.
-   * Textures: preserve real skin pores, sweat, fabric grain, metallic sheen, and raw physical imperfections.
+### Genre 3: Cinematic Voyeurism & Geometric Framing (电影感窥视与画中画构图)
+* **Aesthetic**: Candid third-person observation, lazy detachment, unposed narrative tension.
+* **Core Conflict**: Intimate, vulnerable human states framed through cold industrial/automotive barriers.
+* **Optics**: 50–85mm compression lens; deliberate foreground occlusion.
+* **Lighting**: Golden hour side-lighting mixed with weak white fill reflectors; transparent shadows.
+* **Key Materials**: Rearview mirror silvering, windshield reflections, wet asphalt, resin eyewear, automotive gloss.
 
-4. Output Structure
-   * Creative Concept and Tension: one concise explanation of the mismatch and narrative theme.
-   * Technical Specifications: exact camera focal length, distance, aperture, and lighting setup.
-   * Chinese Prompt (200+ characters): comprehensive narrative incorporating model, attire, setting, optics, lighting, and textures.
-   * English Prompt: high-density keyword and natural language prompt optimized for diffusion models.
-   * Negative Controls: suppress soft lighting, beauty filter, smooth skin, generic studio portrait, flat backdrop, and blurry bokeh.
+---
 
-## Gotchas
+## Anti-Cliché Design Rules
 
-* Do not use vague fluff words like "luxurious", "retro", or "cinematic" without specifying concrete optical or material details.
-* Avoid blurred backgrounds unless specifically executing framed macro work.
-* Always keep shadows sharp and skin texture tangible.
+1. **Ultra-Wide Foreground Invasion (打破安全距离)**
+   * *Visible Feature*: Limbs, shoe soles, or accessories pushed directly toward the lens (10–30 cm distance).
+   * *Visual Effect*: Aggressive perspective elongation that destabilizes conventional portrait symmetry.
+   * *Replication*: Lock focal length to 16–20mm; shoot from below knee level; enforce deep f/8 aperture.
+
+2. **Framed Occlusion (画中画切割)**
+   * *Visible Feature*: Natural geometric obstructions (racket strings, car mirrors, iron girders, fences) slicing across the foreground.
+   * *Visual Effect*: Replaces passive model posing with active environmental voyeurism.
+   * *Replication*: Place foreground element 10–20 cm from front lens element; maintain deep depth of field so frame and subject stay sharp.
+
+3. **Styling-Location Mismatch (语境功能暴力混搭)**
+   * *Visible Feature*: Sculptural evening dresses on athletic courts; oversized formal coats under rusted subway tracks.
+   * *Visual Effect*: Destroys routine stock-photo realism and establishes editorial fashion tension.
+   * *Replication*: Forbid neutral studio backdrops; require functional or utilitarian spaces paired with conflicting couture.
+
+4. **Raw Micro-Texture Preservation (拒绝磨皮糖水感)**
+   * *Visible Feature*: Tangible skin pores, sweat beads, visible stray hairs, fabric weave nap, metallic oxidation.
+   * *Visual Effect*: High-tactile authenticity that elevates images above flat AI generation.
+   * *Replication*: Mandate direct flash; explicitly ban beauty glow, airbrushing, and skin smoothing.
+
+---
+
+## Execution Workflow
