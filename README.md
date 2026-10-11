@@ -1,60 +1,30 @@
-# Creative Fashion Photography AI Skill
+# Creative Fashion Photography Agent Skill
 
-[![Skill Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/)
-[![Target Models](https://img.shields.io/badge/models-Nano%20Bananan%20Pro%20%7C%20Nano%20Bananan%202.1-orange.svg)](https://github.com/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+面向 **Nano Bananan Pro** 与 **Nano Bananan 2.1** 深度优化的先锋时尚创意摄影策划与生图 Skill。
 
-An avant-garde fashion photography editorial skill designed for generative AI agents. It transforms regular model cards and scene references into cohesive, high-fashion 9-shot narrative storyboards, complete with optical camera parameters, on-camera direct flash setups, and model-specific prompts optimized for **Nano Bananan Pro** and **Nano Bananan 2.1**.
+本项目旨在解决传统 AI 时尚摄影生成中常见的“糖水虚化、过度磨皮、影楼假人居中站姿、缺乏叙事张力”等痛点。通过注入专业时尚摄影的光学法则、布光规范与冲突解构逻辑，将常规人物与场景素材直接转化为具有杂志刊载水准的 **9 张连贯叙事大片（九宫格故事板）** 及专业级拍摄通告单。
 
 ---
 
-## 🌟 Key Features
+## 核心特性
 
-* **Anti-Boring Portrait Philosophy**: Completely eliminates generic studio center-posing, oversmoothed airbrushed skin, and repetitive shallow bokeh.
-* **Visual DNA Deconstruction**: Translates visual references into three avant-garde genres:
-  * 🛹 **Subcultural Sportswear Deconstruction**: Ultra-wide angles (16–24mm), direct flash, and raw athletic-tailoring friction.
-  * 🎪 **Pop Surrealism & Scale Inversion**: Deliberate scale clashes (colossal subjects or miniature worlds) with crisp commercial edges.
-  * 🪞 **Cinematic Voyeurism**: Geometric frame cutouts (mirrors, fences, windows) with compressed focal lengths.
-* **9-Beat Editorial Narrative System**: Generates a complete 9-shot storyboard sequence covering establishing frames, wide-angle distortion, macro details, action beats, surreal climaxes, and cinematic exits.
-* **Strict Visual Consistency**: Locks model facial identity, hair styling, wardrobe details, and environmental tone across all 9 storyboard prompts.
-* **Dual-Model Tailored Prompts**:
-  * **Nano Bananan Pro**: High-density descriptive syntax focusing on rich semantic relationships and scene depth.
-  * **Nano Bananan 2.1**: Streamlined keyword syntax prioritizing lens physics, contrast ratios, and compositional rendering.
-
----
-
-## 📸 The 9-Shot Narrative Architecture
-
-Each generation sequence follows an editorial storytelling arc:
-
-| Shot | Framing Beat | Core Optical / Visual Role |
-| :--- | :--- | :--- |
-| **Shot 01** | **Spatial Alienation** (环境远景) | Wide establishing shot highlighting scale contrast between subject and space |
-| **Shot 02** | **Dynamic Invasion** (超广贴近) | 16–24mm low-angle perspective stretch with foreground elements |
-| **Shot 03** | **Material & Texture** (微观触感) | Macro detail of fabric weave, accessories, and tangible surface textures |
-| **Shot 04** | **Geometric Voyeurism** (画中画框取) | Physical obstruction framing (rearview mirrors, iron beams, sports nets) |
-| **Shot 05** | **Mid-Stride Action** (动态张力) | Dynamic mid-motion capture with sharp flash-frozen movement |
-| **Shot 06** | **Surreal Climax** (叙事高潮) | Scale inversion, gravity subversion, or conceptual mismatch |
-| **Shot 07** | **Emotional Confrontation** (半身对峙) | Direct confrontation close-up with visible skin pores and specular sweat |
-| **Shot 08** | **Spatial Distortion** (折叠畸变) | Unconventional top-down angles or architectural geometric distortion |
-| **Shot 09** | **Alienated Denouement** (终章余韵) | Receding back view or distant atmospheric exit shot |
+* **视觉基因解构与流派分流**：
+  * **青年街头与运动解构**：超广角近身拉伸、正午机顶硬闪、高定与功能性护具混搭。
+  * **尺度错位与流行超现实**：人体与日常消费品的极端比例置换、纯净商业高调切光。
+  * **电影感窥视现实**：后视镜/铁网/窗户几何画中画切割、中焦压缩空间。
+  * **智能自适应**：根据输入图文自动匹配反差最强的流派。
+* **9 幕全流程叙事故事板（9-Beat Storyboard）**：
+  * 拒绝单张孤立生成，提供从“序幕异化”到“广角侵入”、“微观质感”、“几何窥视”、“动态张力”、“高潮异化”、“面部凝视”、“空间折叠”直至“终章抽离”的完整 Editorial 叙事节奏。
+* **真实光学参数固化**：
+  * 精准指定镜头焦距（16–24mm / 50–85mm）、光圈（f/5.6–f/11 全景深）、机位距离与闪光灯位（机顶直闪），拒绝模糊的空洞形容词。
+* **双模型定向语法优化**：
+  * **Nano Bananan Pro**：适配高密度语义解析与材质细节结构化长提示词。
+  * **Nano Bananan 2.1**：适配渲染引擎的高权重、强动态关键句语法。
 
 ---
 
-## 🛠️ Optical & Lighting Rules
+## 文件目录结构
 
-* **Depth of Field**: Locked to `f/5.6 – f/11`. Ensures extreme foregrounds and distant backgrounds remain sharp and detailed simultaneously.
-* **Lighting Model**: High-power on-camera direct flash combined with harsh daylight, creating razor-sharp solid black cast shadows.
-* **Tactile Micro-Textures**: Preserves authentic epidermal texture, hair flyaways, specular sweat, fabric weave, and environmental oxidation.
-
----
-
-## 🚀 Quick Start & Usage
-
-### 1. Installation
-
-Save `SKILL.md` into your agent's skill directory:
-
-```bash
-mkdir -p skills/creative-fashion-photography
-cp SKILL.md skills/creative-fashion-photography/
+```text
+├── SKILL.md            # Skill 核心规则与工作流执行指令
+└── README.md           # 项目说明文档与使用指南
