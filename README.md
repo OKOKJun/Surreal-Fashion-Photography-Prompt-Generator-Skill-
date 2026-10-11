@@ -1,6 +1,6 @@
 ---
 
-### `README.md`
+ `README.md`
 
 ```markdown
 # 📸 Surreal Fashion Photography Prompt Generator
